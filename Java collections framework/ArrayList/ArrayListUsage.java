@@ -117,6 +117,8 @@ while(e.hasMoreElements()) {
 /* Sorting of ArrayList */
 Collections.sort(list);		//using Collections.sort method
 
+//Sort the list in decreasing order.
+Collections.sort(list, Collections.reverseOrder());
 
 
 
