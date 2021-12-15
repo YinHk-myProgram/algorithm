@@ -8,7 +8,7 @@
 //Using util package
 import java.util.*;
 
-//Declare an ArrayList and define your data type for the element inside the array, default length is 10
+//Declare an ArrayList and define your data type for the element inside the array, default capacity is 10
 ArrayList<T> list = new ArrayList<T>();
 
 /* Add elements */
@@ -30,7 +30,7 @@ list.addAll(index, c);    //return true
 
 /* ArrayList Size */
 
-//return the length
+//return how many elements in the array list
 list.size();
 
 //Increases the capacity of the list, default capacity is 10 
@@ -57,7 +57,7 @@ list.clear();
 //Replaces the element e at the specified position in this list with the specified element.
 list.set(index, e);
 
-/* Other method */
+/* Other methods */
 
 //get element from the list 
 list.get(index);
@@ -65,7 +65,11 @@ list.get(index);
 //Clone ArrayList, returns a shallow copy of ArrayList
 ArrayList list2 = (ArrayList) list.clone();   //list2 equals to list
 
+//Returns the index of the first occurrence of the specified element e
+list.indexOf(e);     //if not found, return -1
 
+//Checks whether the given specified element e is present in the array list.
+list.contains(e);    //return a boolean
 
-
-
+//Trims the capacity of this ArrayList instance to be the array list's current size.
+list.trimToSize();
