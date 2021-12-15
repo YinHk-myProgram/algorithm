@@ -62,7 +62,7 @@ list.set(index, e);
 //get element from the list 
 list.get(index);
    
-//clone array list
+//Clone ArrayList, returns a shallow copy of ArrayList
 ArrayList list2 = (ArrayList) list.clone();   //list2 equals to list
 
 
