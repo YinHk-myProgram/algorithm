@@ -92,4 +92,36 @@ list.contains(e);    //return a boolean
 //Trims the capacity of this ArrayList instance to be the array list's current size.
 list.trimToSize();
 
-/
+/* Looping */
+
+for (T t:list){
+   System.out.println(t); 
+}
+
+for (int i=0;i<list.size();i++){
+   System.out.println(list.get(i));
+}
+
+int count = 0;
+while(condition) {
+   System.out.println(list.get(count));
+   count++;
+}
+
+//using Enumeration interface to loop
+Enumeration<T> e = Collections.enumeration(list);	//pass the ArrayList as parameter
+while(e.hasMoreElements()) {
+   System.out.println(e.nextElement());
+}
+
+
+      
+
+
+
+
+
+
+
+
+
