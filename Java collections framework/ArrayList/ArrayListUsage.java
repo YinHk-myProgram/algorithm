@@ -8,7 +8,7 @@
 //Using util package
 import java.util.*;
 
-//Declare an ArrayList and define your data type for the element inside the array
+//Declare an ArrayList and define your data type for the element inside the array, default length is 10
 ArrayList<T> list = new ArrayList<T>();
 
 /* Add elements */
@@ -33,6 +33,9 @@ list.addAll(index, c);    //return true
 //return the length
 list.size();
 
+//Increases the capacity of the list, default capacity is 10 
+list.ensureCapacity(minCapacity); 
+
 /* remove elements */
 
 //Removes the element at the specified index in this list.
@@ -46,14 +49,21 @@ list.remove(e);   //return true
  */
 list.removeRange(fromIndex, toIndex);
 
+//removing all the elements of the array list
+list.clear();
+
 /* Change an element */
 
 //Replaces the element e at the specified position in this list with the specified element.
 list.set(index, e);
 
+/* Other method */
 
-
-
+//get element from the list 
+list.get(index);
+   
+//clone array list
+ArrayList list2 = (ArrayList) list.clone();   //list2 equals to list
 
 
 
