@@ -114,8 +114,10 @@ while(e.hasMoreElements()) {
    System.out.println(e.nextElement());
 }
 
+/* Sorting of ArrayList */
+Collections.sort(list);		//using Collections.sort method
 
-      
+
 
 
 
