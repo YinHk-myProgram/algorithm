@@ -25,7 +25,10 @@ arrlist3.add(obj1);
 arrlist3.add(obj2);
 arrlist3.add(obj3);
 ....
-   
+	
+ArrayList<T> arrlist4 = new ArrayList<T>(Collections.nCopies(count, obj));	      //using collections.ncopies method, with same element in the array list
+ 
+
 /* Add elements */
 
 //Add the specified element e to the end of this list. 
