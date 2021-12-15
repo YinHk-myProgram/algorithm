@@ -38,8 +38,23 @@ list.size();
 //Removes the element at the specified index in this list.
 list.remove(index);   //return the element that was removed from the list
 
-//Removes the first occurrence of the specified element from this list
+//Removes the first occurrence of the specified element e from this list
 list.remove(e);   //return true
+
+/* Removes from this list all of the elements whose index is between
+ * fromIndex, inclusive, and toIndex, exclusive.
+ */
+list.removeRange(fromIndex, toIndex);
+
+/* Change an element */
+
+//Replaces the element e at the specified position in this list with the specified element.
+list.set(index, e);
+
+
+
+
+
 
 
 
