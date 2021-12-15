@@ -79,6 +79,9 @@ list.set(index, e);
 
 //get element from the list 
 list.get(index);
+
+//get sublist of an ArrayList
+ArrayList<T> subList = new ArrayList<T>(list.subList(fromIndex, toIndex));
    
 //Clone ArrayList, returns a shallow copy of ArrayList
 ArrayList copyList = (ArrayList) list.clone();   //list2 equals to list
@@ -119,13 +122,4 @@ Collections.sort(list);		//using Collections.sort method
 
 //Sort the list in decreasing order.
 Collections.sort(list, Collections.reverseOrder());
-
-
-
-
-
-
-
-
-
 
