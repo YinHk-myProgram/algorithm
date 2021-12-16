@@ -8,7 +8,7 @@ int[] arr = new int[n];  //n elements
 /* Methods */
 
 //Returns a fixed-size list backed by the specified array.
-List list = Arrays.aslist(a);
+List list = Arrays.aslist(arr);
 
 //Searches the specified value by using the binary search algorithm
 int value1 = Arrays.binarySearch(arr, key);    //key: the searching value in the array 
