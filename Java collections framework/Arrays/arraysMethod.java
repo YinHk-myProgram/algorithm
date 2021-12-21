@@ -10,9 +10,9 @@ import java.util.Arrays;
 //Returns a fixed-size list backed by the specified array.
 List list = Arrays.aslist(arr);
 
-//Searches the specified value by using the binary search algorithm
-int value1 = Arrays.binarySearch(arr, key);    //key: the searching value in the array 
-int value2 = Arrays.binarySearch(arr, fromInde, toIndex, key);    
+//Searches the specified value by using the binary search algorithm, return index of the search key.
+int i = Arrays.binarySearch(arr, key);    //key: the searching value in the array 
+int index = Arrays.binarySearch(arr, fromInde, toIndex, key);    
 
 //Copy an array and return a new array with the specified length.
 Arrays.copyOf(arr, length); 
