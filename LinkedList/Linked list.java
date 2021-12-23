@@ -12,7 +12,7 @@ public class LinkedList {
     }
 
 
-     // Adds an element to the end of the list
+    // Adds an element to the end of the list
     public void add(Object data)  {
 
         Node node = new Node(data);
@@ -25,7 +25,7 @@ public class LinkedList {
     }
 
 
-     // Obtains an element by index
+    // Obtains an element by index
     public Object get(int index) {
 
         if (head.getNext() == null || index >= length){
@@ -45,7 +45,7 @@ public class LinkedList {
     }
 
 
-     // Returns the index of the element in the list
+    // Returns the index of the element in the list
     public int indexOf(Object data) {
         Node obj=head;
         for (int i = 0; i < length; i++) {
@@ -59,7 +59,7 @@ public class LinkedList {
     }
 
 
-     // Removes an element from the list
+    // Removes an element from the list
     public boolean remove(Object data) {
 
         if (head.getNext() == null){
