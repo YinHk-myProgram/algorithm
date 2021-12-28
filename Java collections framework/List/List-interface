@@ -1,6 +1,7 @@
 List interface 
-Itis an ordered collection that allows us to store and access elements sequentially. 
-It extends the Collection interface.
-The user can access elements by their integer index (position in the list), and search for elements in the list.
 
-add() - adds an element to the end of this list 
+
+/*Method*/
+
+add(element)
+add(index, element)
