@@ -1,7 +1,0 @@
-List interface 
-
-
-/*Method*/
-
-add(element)
-add(index, element)
