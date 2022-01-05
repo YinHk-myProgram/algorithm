@@ -20,8 +20,7 @@ public int count(node head) {
  }
 
 //to reverse the linked list
-static node ll_reverse(node head)
-	{
+public node reverse(node head) {
 		node p = head;
 		int i = count(head), j = 1;
 		int[] arr = new int[i];
@@ -38,36 +37,6 @@ static node ll_reverse(node head)
 		}
 
 		return head;
-	}
-	// code to insert at end of ll
-	static node insert_end(node head, int data)
-	{
-		node q = head;
-		node p = new node();
-		p.val = data;
-		p.next = null;
-		while (q.next != null) {
-			q = q.next;
-		}
-		q.next = p;
-		p.next = null;
-		return head;
-	}
-
-//reverse the linked list 
-public node create_ll(node head, int data) {
-  
-		node p = new node();
-		p.next = null;
-		p.val = data;
-		if (head == null) {
-			head = p;
-			p.next = null;
-			return head;
-		}
-		else {
-			head = insert_end(head, data);
-			return head;
-		}
 }
+	
 
