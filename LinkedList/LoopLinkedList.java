@@ -1,5 +1,5 @@
 //while Loop
-Node head;
+Node head = new Node();
 Node current = head;
 
 while(current!=null) {
