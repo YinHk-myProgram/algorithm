@@ -1,8 +1,12 @@
 //while Loop
+Node head;
+Node current = head;
 
-
-while(i<list.size()) {
-     System.out.print(list.get(i) + " ");
-     i++;
+while(current!=null) {
+     
+     //your logic here
+     
+    //iteration
+    current = current.next;
 }
 
