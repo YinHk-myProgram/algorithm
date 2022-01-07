@@ -1,4 +1,5 @@
 //implement a recursive method that verifies whether a string passed as a parameter is a palindrome
+//if palindrome, return true, else return false
 
 public static boolean palindrome(String s) {
   if (s.length() <= 1)
