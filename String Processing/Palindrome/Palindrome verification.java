@@ -9,3 +9,12 @@ public static boolean palindrome(String s) {
             palindrome(s.substring(1,s.length()-1));
 }
 
+
+public boolean isPalindrome(String s,int begin, int end) {
+   if (begin < 0) return false;
+   while(begin < end) {
+      if (s.charAt(begin++) != s.charAt(end--)) return false; 
+   }
+   return true;
+}
+
