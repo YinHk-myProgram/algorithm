@@ -1,4 +1,4 @@
-## Palindrome String
+## Palindrome String(回文)
 
 A string is said to be a palindrome if the string read from left to right is equal to the string read from right to left.
 
