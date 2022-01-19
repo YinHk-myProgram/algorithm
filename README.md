@@ -1,2 +1,2 @@
-# algorithms
-script of algorithms
+# algorithm
+script of algorithm
