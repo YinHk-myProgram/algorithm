@@ -1,6 +1,6 @@
 //Reverse an array
 
-/*
+/* Loop method
    1) Initialize start and end indexes as start = 0, end = n-1 
    2) In a loop, swap arr[start] with arr[end] and change start and end as follows : 
 	
@@ -18,7 +18,7 @@ public void rvereseArray(int arr[], int start, int end){
 } 
 
 
-/*  
+/*  Recurrsive method
     1) Initialize start and end indexes as start = 0, end = n-1 
     2) Swap arr[start] with arr[end] 
     3) Recursively call reverse for rest of the array.
