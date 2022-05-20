@@ -17,8 +17,8 @@ function insertionSort(arr) {
             // Compare key with each element on the left of it until an element smaller than
             // it is found.
             // For descending order, change key<array[j] to key>array[j].
-            while ((j > -1) && (current < inputArr[j])) {
-                inputArr[j+1] = inputArr[j];
+            while ((j > -1) && (key < arr[j])) {
+                arr[j+1] = arr[j];
                 j--;
             }
             // Place key at after the element just smaller than it.
