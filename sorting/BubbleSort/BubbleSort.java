@@ -1,4 +1,6 @@
 // perform the bubble sort
+// O(n^2)
+
 public void bubbleSort(int array[]) {
     int size = array.length;
     
