@@ -6,19 +6,25 @@
  */
  
 
-function insertionSort(inputArr) {
-    let n = inputArr.length;
+function insertionSort(arr) {
+    let n = arr.length;
         for (let i = 1; i < n; i++) {
             // Choosing the first element in our unsorted subarray
-            let current = inputArr[i];
+            let key = arr[i];
             // The last element of our sorted subarray
             let j = i-1; 
+            
+            // Compare key with each element on the left of it until an element smaller than
+            // it is found.
+            // For descending order, change key<array[j] to key>array[j].
             while ((j > -1) && (current < inputArr[j])) {
                 inputArr[j+1] = inputArr[j];
                 j--;
             }
-            inputArr[j+1] = current;
+            // Place key at after the element just smaller than it.
+            arr[j+1] = key;
         }
+   
     return inputArr;
 }
 
