@@ -6,17 +6,19 @@
  */
  
 
-function insertion_sort(A) {
-    var len = array_length(A);
-    var i = 1;
-    while (i < len) {
-        var x = A[i];
-        var j = i - 1;
-        while (j >= 0 && A[j] > x) {
-            A[j + 1] = A[j];
-            j = j - 1;
+function insertionSort(inputArr) {
+    let n = inputArr.length;
+        for (let i = 1; i < n; i++) {
+            // Choosing the first element in our unsorted subarray
+            let current = inputArr[i];
+            // The last element of our sorted subarray
+            let j = i-1; 
+            while ((j > -1) && (current < inputArr[j])) {
+                inputArr[j+1] = inputArr[j];
+                j--;
+            }
+            inputArr[j+1] = current;
         }
-        A[j+1] = x;
-        i = i + 1;
-    }
+    return inputArr;
 }
+
