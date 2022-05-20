@@ -12,7 +12,6 @@ const reverseString = function(str) {
    return reverseArray.join("");
 }
 
-
 // Reverse a String With a For Loop
 function reverseStr(str) {
     let newString = "";
@@ -27,4 +26,5 @@ function reverseStr(str) {
 function reverseStri(str) {
      return (str === '') ? '' : reverseStri(str.substr(1)) + str.charAt(0);
 }
+
 
