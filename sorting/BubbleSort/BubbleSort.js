@@ -7,18 +7,15 @@
    - Stable: Yes
  */
  
-let arr = [1, 4, 7, 45, 7,43, 44, 25, 6, 4, 6, 9],
-    sorted = false;
-
-while(!sorted) {
-  sorted = true;
-  for(var i=0; i < arr.length; i++) {
-    if(arr[i] < arr[i-1]) {
-      let temp = arr[i];
-      arr[i] = arr[i-1];
-      arr[i-1] = temp;
-      sorted = false;
-    }
-  }
+function sortItems(array) {
+	for (let i = 0; i < array.length; i++) {
+		for (let j = 0; j < array.length; j++) {
+			if (array[j] > array[j + 1]) {
+				let temp = array[j];
+				array[j] = array[j + 1];
+				array[j + 1] = temp;
+			}
+		}
+	}
+	return array;
 }
- 
