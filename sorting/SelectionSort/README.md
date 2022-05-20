@@ -15,4 +15,13 @@ compare with th min value in the array, place min value to the front.
   - Repeat the proccess similarly
   
  
-  
+  ```
+  selectionSort(array, size)
+  repeat (size - 1) times
+  set the first unsorted element as the minimum
+  for each of the unsorted elements
+    if element < currentMinimum
+      set element as new minimum
+  swap minimum with first unsorted position
+  end selectionSort
+```
