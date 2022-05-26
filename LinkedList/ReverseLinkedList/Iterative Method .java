@@ -30,11 +30,19 @@ public Node reverse(Node node){
 		Node current = node;
 		Node next = null;
 		while (current != null) {
+			
+			// Store rest of the nodes
 			next = current.next;
+			
+			// Change next node of the current node so it would link to previous node.
 			current.next = prev;
+			
+			// iteration
 			prev = current;
 			current = next;
 		}
+		
+		// After iteration, all node reversed, asign node(the head) to prevNode(start)
 		node = prev;
 		return node;
 }
