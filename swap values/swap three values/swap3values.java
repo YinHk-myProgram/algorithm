@@ -2,10 +2,10 @@
 public SwapThreeVariables() {
   
     int a, b, c, temp;
-    swap = a;
+    temp = a;
     a = b;
     b = c;
-    c = swap;
+    c = temp;
 
 }
 
