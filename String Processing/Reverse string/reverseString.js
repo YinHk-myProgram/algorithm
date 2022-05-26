@@ -24,7 +24,7 @@ function reverseStr(str) {
 
 // Reverse a String With Recursion
 function reverseStri(str) {
-     return (str === '') ? '' : reverseStri(str.substr(1)) + str.charAt(0);
+     return (str === '') ? '' : reverseStri(str.substring(1)) + str.charAt(0);
 }
 
 
