@@ -1,6 +1,8 @@
 ## Palindrome String(回文)
 
 A string is said to be a palindrome if the string read from left to right is equal to the string read from right to left.
+### What is a palindrome string?
+A string is called a palindrome string if the reverse of that string is the same as the original string.
 
 For example, ignoring the difference between uppercase and lowercase letters, the string "iTopiNonAvevanoNipoti" is a palindrome, while the string "iGattiNonAvevanoCugini" is not so.
 
