@@ -9,6 +9,7 @@ public static boolean palindrome(String s) {
             palindrome(s.substring(1,s.length()-1));
 }
 
+//or
 
 public boolean isPalindrome(String s,int begin, int end) {
    if (begin < 0) return false;
