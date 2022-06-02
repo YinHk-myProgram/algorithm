@@ -5,7 +5,7 @@ let recursiveFunction = function(arr, target, start, end) {
     if (start > end) return false;
   
     // Find the middle index
-    let mid = Math.floor((start + end)/2);
+    let mid = start + parseInt((end - start)/2);
   
     // Compare mid with given key x
     if (arr[mid]===target) return true;
