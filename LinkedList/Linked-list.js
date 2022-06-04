@@ -132,6 +132,7 @@ class LinkedList{
         if(count == index && current.data == data) {
            deletedNode = current;
            previous.next = current.next;
+           current.next = null;
            this.size--;
         }
     }
