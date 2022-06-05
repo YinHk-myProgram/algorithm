@@ -1,3 +1,7 @@
+/* swap three values by destructing assignment */
+[b, c, a] = [a, b, c]
+
+
 /* Using Arithmetic Operators */
 //Time Complexity: O(1)
 //Auxiliary Space: O(1)
