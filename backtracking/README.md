@@ -1,4 +1,6 @@
 ## Backtracking Algorithms
+A backtracking algorithm is a problem-solving algorithm that uses a brute force approach for finding the desired output.
+
 Backtracking is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time
 
 if the current solution is not suitable, then backtrack and try other solutions. Thus, recursion is used in this approach.
