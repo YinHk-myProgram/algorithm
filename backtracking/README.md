@@ -21,7 +21,7 @@ Backtrack(x)
     backtrack(expand x)
 ```
 #### Pseudo Code for Backtracking:
-1. Recursive backtracking solution. 
+Recursive backtracking solution. 
 ```
 void findSolutions(n, other params) :
     if (found a solution) :
@@ -38,7 +38,7 @@ void findSolutions(n, other params) :
             removeValue(val, n);
  ```
  
- 2. Finding whether a solution exists or not 
+Finding whether a solution exists or not: 
  ```
  boolean findSolutions(n, other params) :
     if (found a solution) :
