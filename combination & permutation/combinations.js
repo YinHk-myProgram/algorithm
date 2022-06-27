@@ -8,13 +8,14 @@ const combinations = (n, k) => {
   const backtracking = (start, tempArr) => {
     if (tempArr.length === k) {
       res.push([...tempArr]);     //make copy of the reference
-      return;
+      return;                     //finish a part of combination result
     }
 
     for (let i = start; i < n + 1; i++) {
+      //backtracking logic
       tempArr.push(i);
-      backtracking(i + 1, tempArr);
-      tempArr.pop();
+      backtracking(i + 1, tempArr);      //do recursion here
+      tempArr.pop();                     //remove the current item
     }
   };
   backtracking(1, []);
