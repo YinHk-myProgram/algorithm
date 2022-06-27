@@ -1,30 +1,51 @@
 /*  Using backtracking to find out permutations */
 
-//find permutations for given array of digits
+//find permutations for given array of digits/strings
+const permutations = (inputArr) => {
+  let res = [];
 
-var permute = function(nums) {
-
-  var results = [];
-  
-  var recursive = (result) => {
-
-    if (result.length === nums.length) {
-      results.push(result.slice());
-      return;
+  const backtracking = (tempArr) => {
+    if (tempArr.length === inputArr.length) {
+      res.push(tempArr.slice());
+      return;                       //finish a part of permutation result
     }
 
-    for (var i = 0; i < nums.length; i++) {
-      if (!result.includes(nums[i])) {
-        result.push(nums[i]);
-        recursive(result);
-        result.pop();
+    for (let i = 0; i < inputArr.length; i++) {
+      //backtracking logic
+      if (!tempArr.includes(inputArr[i])) {
+        tempArr.push(inputArr[i]);
+        backtracking(tempArr);      //do recursion here
+        tempArr.pop();              //remove the current item
       }
     }
-    
-  }
-
-  recursive([]);
-  return results;
-  
+  };
+  backtracking([]);
+  return res;
 };
+
+
+
+//eg:
+permutations(['a', 'b', 'c']);
+/*
+ [
+  [ 'a', 'b', 'c' ],
+  [ 'a', 'c', 'b' ],
+  [ 'b', 'a', 'c' ],
+  [ 'b', 'c', 'a' ],
+  [ 'c', 'a', 'b' ],
+  [ 'c', 'b', 'a' ]
+]
+*/
+permutations([1, 2, 3]);
+/*
+ [
+  [ 1, 2, 3 ],
+  [ 1, 3, 2 ],
+  [ 2, 1, 3 ],
+  [ 2, 3, 1 ],
+  [ 3, 1, 2 ],
+  [ 3, 2, 1 ]
+ ]
+*/
 
