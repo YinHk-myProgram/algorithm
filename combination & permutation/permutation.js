@@ -6,7 +6,7 @@ const permutations = (inputArr) => {
 
   const backtracking = (tempArr) => {
     if (tempArr.length === inputArr.length) {
-      res.push(tempArr.slice());
+      res.push([...tempArr]);
       return;                       //finish a part of permutation result
     }
 
