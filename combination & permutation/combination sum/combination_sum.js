@@ -12,7 +12,7 @@ const combinationSum = (nums, target) => {
     const backtracking = (start, tempArr, remainder) => {
         for(let i=start; i<candidates.length&&candidates[i]<=remainder; i++) {
             if(nums[i] === remainder)  res.push([...tempArr, nums[i]]);
-             else backtracking(i, [...tempArr, nums[i]],  remainder - nums[i]);     
+             else backtracking(i, [...tempArr, nums[i]],  remainder - nums[i]);   //make a copy instead using reference   
         }
     }
     backtracking(0, [], target);
