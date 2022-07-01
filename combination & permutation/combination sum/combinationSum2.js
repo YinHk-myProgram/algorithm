@@ -8,7 +8,7 @@
 
 /* using sum method  */ 
 
-var combinationSum2 = function(candidates, target) {
+const combinationSum2 = (candidates, target) => {
    let res = [];
    candidates.sort((a, b) => a-b);
    
@@ -28,7 +28,8 @@ var combinationSum2 = function(candidates, target) {
 
 
 /* using remaindr to check */
-var combinationSum2 = function(candidates, target) {
+
+const combinationSum2 = (candidates, target) => {
    let res = [];
    candidates.sort((a, b) => a-b);
    
@@ -42,4 +43,5 @@ var combinationSum2 = function(candidates, target) {
    return res;
 };
 
-const isDuplicatedArr = (arr, nums) => arr.some(item => item.length === nums.length && item.every((val, index) => val === nums[index]));
+const isDuplicatedArr = (arr, nums) => arr.some(item => item.length === nums.length && 
+                                                item.every((val, index) => val === nums[index]));
