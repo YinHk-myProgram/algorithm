@@ -17,7 +17,7 @@ const combinationSum3 = (k, n) => {
 
 const dfs = function(k, n, result, list, sum, start){
     if(list.length === k && sum === n){
-        result.push([...list]);
+        res.push([...list]);
         return;
     }
     
