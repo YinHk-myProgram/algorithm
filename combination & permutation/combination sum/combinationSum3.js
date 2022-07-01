@@ -12,11 +12,11 @@ const combinationSum3 = (k, n) => {
     let list = [];
     let sum = 0;
     
-    dfs(k, n, result, list, sum, 1);     
+    dfs(k, n, res, list, sum, 1);     
     return res;
 };
 
-const dfs = function(k, n, result, list, sum, start){
+const dfs = function(k, n, res, list, sum, start){
     if(list.length === k && sum === n){
         res.push([...list]);
         return;
@@ -25,7 +25,7 @@ const dfs = function(k, n, result, list, sum, start){
     for(let i = start; i <= 9; i ++){
         if(list.length > k || sum > n) return;
         list.push(i);
-        dfs (k, n, result, list, sum + i, i + 1);
+        dfs (k, n, res, list, sum + i, i + 1);
         list.pop();
     }
 }   
