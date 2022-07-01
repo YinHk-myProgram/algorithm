@@ -1,6 +1,7 @@
 /* Compare Arrays in JavaScript */
 
-//Arrays are objects in JavaScript, so the triple equals operator === only returns true if the arrays are the same reference.
+//Arrays are objects in JavaScript, so the triple equals operator === only returns true 
+//if the arrays are the same reference.
 const a = [1, 2, 3];
 const b = [1, 2, 3];
 
