@@ -24,3 +24,22 @@ var combinationSum2 = function(candidates, target) {
    backtracking(0, [], 0);
    return res;
 };
+
+
+
+/* using remaindr to check */
+var combinationSum2 = function(candidates, target) {
+   let res = [];
+   candidates.sort((a, b) => a-b);
+   
+   const backtracking = (start, tempArr, remainder) => {
+     for(let i=start; i<candidates.length&&candidates[i]<=remainder; i++) {
+        if(candidates[i] === remainder && !isDuplicatedArr(res, [...tempArr, candidates[i]])) res.push([...tempArr, candidates[i]]);
+           else backtracking(i+1, [...tempArr, candidates[i]],  remainder - candidates[i]);
+     }  
+   }
+   backtracking(0, [], target);
+   return res;
+};
+
+const isDuplicatedArr = (arr, nums) => arr.some(item => item.length === nums.length && item.every((val, index) => val === nums[index]));
