@@ -2,10 +2,11 @@
 
 //Input: candidates = [2,3,5], target = 8
 //Output: [[2,2,2,2],[2,3,3],[3,5]]
-
+// 
 var combinationSum = function(candidates, target) {
     let res = [];
     let index = 0;
+    candidates.sort((a, b) => a-b);
     
     const backtracking = (tempArr, sum) => {
       if(sum===target && isSorted(tempArr)) {
