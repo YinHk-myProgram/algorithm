@@ -1,9 +1,9 @@
 //Creating the Node in binary tree
 class TreeNode {
-    constructor(data) {
+    constructor(data, left, right) {
         this.data = data;   // node value
-        this.left = null;   // left node child reference
-        this.right = null;  // right node child reference
+        this.left = (left===undefined ? null : left);     // left node child reference
+        this.right = (right===undefined ? null : right);  // right node child reference
     }
 }
 
@@ -14,12 +14,12 @@ function TreeNode(val, left, right) {
      this.right = (right===undefined ? null : right)
 }
 
-// create tree object
-const tree = new TreeNode()
+// create tree node
+const node = new TreeNode(data)
 
 /* insert node */
 insert(data) {
-    let newNode = new Node(data);
+    let newNode = new TreeNode(data);
 
     if(this.root === null) {
         this.root = newNode;
