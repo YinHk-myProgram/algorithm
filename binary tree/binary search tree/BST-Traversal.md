@@ -23,7 +23,7 @@ inOrderTraverse(node, callback) {
 
 ![](./pre-order.png)
 ```
-Root, Left, Right.
+Preorder => Root, Left, Right.
 Step 1 − Visit root node.
 Step 2 − Recursively traverse left subtree.
 Step 3 − Recursively traverse right subtree.
