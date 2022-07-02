@@ -1,6 +1,6 @@
 ## Binary Tree
 
-
+![](./binary_tree_graph.png)
 
 
 
