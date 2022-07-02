@@ -1,6 +1,6 @@
 ### In-Order Traversal
 > An in-order traversal will visit all nodes in ascending order, starting from a given node (optional), and perform the given callback function (also optional)
-
+![](./in-order.png)
 
 ```js
 inOrderTraverse(node, callback) {
