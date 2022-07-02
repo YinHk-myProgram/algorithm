@@ -22,3 +22,6 @@ A Binary Tree node contains the following parts.
 
 ### ref 
 https://dev.to/christinamcmahon/understanding-binary-search-trees-4d90
+
+**Binary tree study guide** \
+https://leetcode.com/discuss/study-guide/1212004/binary-trees-study-guide
