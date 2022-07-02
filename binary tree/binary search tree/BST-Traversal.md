@@ -1,5 +1,5 @@
 ### In-Order Traversal
-> An in-order traversal will visit all nodes in ascending order, starting from a given node (optional), and perform the given callback function (also optional)
+> An in-order traversal will **visit all nodes in ascending order, starting from a given node (optional)**, and perform the given callback function (also optional)
 
 ![](./in-order.png)
 ```js
@@ -13,7 +13,7 @@ inOrderTraverse(node, callback) {
 ```
 
 ### Pre-Order Traversal
-> A pre-order traversal visits the node prior to its descendants.
+> A pre-order traversal **visits the node prior to its descendants**.
 
 ![](./pre-order.png)
 ```js
@@ -27,7 +27,7 @@ preOrderTraverse(node, callback) {
 ```
 
 ### Post-Order Traversal
-> A post-order traversal visits the node after its descendants.
+> A post-order traversal **visits the node after its descendants**.
 
 ![](./post-order.png)
 ```js
