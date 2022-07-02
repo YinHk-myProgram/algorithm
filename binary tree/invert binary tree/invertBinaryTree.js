@@ -6,7 +6,7 @@ const invertTree = = (root) => {
         node.right = node.left;
         node.left = temp;
         swapTree(node.left);
-        swapTree(node.right)
+        swapTree(node.right);
       }
    }
    swapTree(root);
