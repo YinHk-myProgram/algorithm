@@ -1,4 +1,14 @@
 //path sum
+/*   target = 22
+      5
+     / \
+    4   8
+   /   / \
+  11  13  4
+ /  \      \
+7    2      1
+
+*/
 
 const hasPathSum = (root, targetSum) => {
     if(root) return pathSum(root, targetSum);
