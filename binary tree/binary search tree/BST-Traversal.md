@@ -17,6 +17,42 @@ inOrderTraverse(node, callback) {
     }
 }
 ```
+eg:
+```java
+// Recursive function to perform inorder traversal on the tree
+public static void inorder(Node root){
+		// return if the current node is empty
+		if (root == null) {
+			return;
+		}
+	
+		// Traverse the left subtree
+		inorder(root.left);
+	
+		// Display the data part of the root (or current node)
+		System.out.print(root.data + " ");
+	
+		// Traverse the right subtree
+		inorder(root.right);
+}
+/* 
+example:
+				   1
+				 /   \
+				/     \
+			   2       3
+			  /      /   \
+			 /      /     \
+			4      5       6
+				  / \
+				 /   \
+				7     8
+         
+          output: 4 2 1 7 5 8 3 6        
+*/
+
+
+```
 
 ### Pre-Order Traversal
 > A pre-order traversal **visits the node prior to its descendants**.
@@ -36,6 +72,39 @@ preOrderTraverse(node, callback) {
         this.preOrderTraverse(node.right, callback);
     }
 }
+```
+```java
+ // Recursive function to perform preorder traversal on the tree
+ public static void preorder(Node root) {
+        // return if the current node is empty
+        if (root == null) {
+            return;
+        }
+    
+        // Display the data part of the root (or current node)
+        System.out.print(root.data + " ");
+    
+        // Traverse the left subtree
+        preorder(root.left);
+    
+        // Traverse the right subtree
+        preorder(root.right);
+}
+
+/*
+     
+                   1
+                 /   \
+                /     \
+               2       3
+              /      /   \
+             /      /     \
+            4      5       6
+                  / \
+                 /   \
+                7     8
+        output: 1 2 4 3 5 7 8 6 
+*/
 ```
 
 ### Post-Order Traversal
@@ -57,6 +126,39 @@ postOrderTraverse(node, callback) {
     }
 }
 ```
+```java
+// Recursive function to perform postorder traversal on the tree
+public static void postorder(Node root) {
+        // return if the current node is empty
+        if (root == null) {
+            return;
+        }
+    
+        // Traverse the left subtree
+        postorder(root.left);
+    
+        // Traverse the right subtree
+        postorder(root.right);
+    
+        // Display the data part of the root (or current node)
+        System.out.print(root.data + " ");
+}
 
+/* 
+
+                   1
+                 /   \
+                /     \
+               2       3
+              /      /   \
+             /      /     \
+            4      5       6
+                  / \
+                 /   \
+                7     8
+          output: 4 2 7 8 5 6 3 1 
+*/
+
+```
 
 
