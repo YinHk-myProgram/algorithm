@@ -29,7 +29,7 @@ preOrderTraverse(node, callback) {
 ### Post-Order Traversal
 > A post-order traversal visits the node after its descendants.
 
-![](./pre-order.png)
+![](./post-order.png)
 ```js
 postOrderTraverse(node, callback) {
     if(node != null) {
