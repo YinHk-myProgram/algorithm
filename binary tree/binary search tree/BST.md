@@ -14,6 +14,8 @@ inOrderTraverse(node, callback) {
 
 ### Pre-Order Traversal
 > A pre-order traversal visits the node prior to its descendants.
+
+![](./pre-order.png)
 ```js
 preOrderTraverse(node, callback) {
     if(node != null) {
