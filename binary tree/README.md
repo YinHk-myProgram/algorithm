@@ -9,6 +9,16 @@ A Binary Tree node contains the following parts.
 - Pointer to left child
 - Pointer to right child
 
+```js
+/*
+ *Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+```
 
 ### ref 
 https://dev.to/christinamcmahon/understanding-binary-search-trees-4d90
