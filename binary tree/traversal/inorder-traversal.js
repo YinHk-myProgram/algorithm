@@ -1,6 +1,6 @@
 const inorderTraversal = root => {
     let list = [];
-    //recurrsion method
+    //recurrsion
     const inorder = node => {
         if(node) {
             inorder(node.left);
