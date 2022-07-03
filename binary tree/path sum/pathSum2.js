@@ -25,10 +25,14 @@ const pathSum = (root, targetSum) => {
        res.push([...list])
        return;
      }
+        
      getPath(node.left, target - node.val, [...list]);    // for every left node recurssion
      getPath(node.right, target - node.val, [...list]);   // for every rigft node recurssive
+        
    }
+    
    getPath(root, targetSum, []);
    return res;
+    
 };
 
