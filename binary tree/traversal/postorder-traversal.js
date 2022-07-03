@@ -1,6 +1,6 @@
 const postorderTraversal = root => {
     let list = [];
-    //recurrsion method
+    //recurrsion
     const postorder = node => {
         if(node) {
             postorder(node.left);
@@ -8,7 +8,7 @@ const postorderTraversal = root => {
             list.push(node.val);
         }
     }
-    if(root)  postorder(root);
+    postorder(root);
     return list;
 };
 
