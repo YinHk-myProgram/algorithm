@@ -8,7 +8,7 @@ const inorderTraversal = root => {
             inorder(node.right);
         }
     }
-    if(root)  inorder(root);
+    inorder(root);
     return list;
 };
 
