@@ -11,8 +11,7 @@
 */
 
 const hasPathSum = (root, targetSum) => {
-    if(root) return pathSum(root, targetSum);
-     else return false;
+   return pathSum(root, targetSum);
 };
 
 const pathSum = (root, sum) => { 
