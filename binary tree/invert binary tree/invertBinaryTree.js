@@ -9,8 +9,10 @@ const invertTree = = (root) => {
         swapTree(node.right);
       }
    }
+   
    swapTree(root);
    return root;
+   
 };
 
 /*  
