@@ -12,7 +12,7 @@ Step 3 − Recursively traverse right subtree.
 inOrderTraverse(node, callback) {
     if(node != null) {
         this.inOrderTraverse(node.left, callback);
-        callback(node.data);
+        callback(node.data);      //execuate function on each node in order => left, root, right
         this.inOrderTraverse(node.right, callback);
     }
 }
@@ -67,7 +67,7 @@ Step 3 − Recursively traverse right subtree.
 ```js
 preOrderTraverse(node, callback) {
     if(node != null) {
-        callback(node.data);
+        callback(node.data);		 //execuate function on each node in preorder => root, left, right
         this.preOrderTraverse(node.left, callback);
         this.preOrderTraverse(node.right, callback);
     }
@@ -122,7 +122,7 @@ postOrderTraverse(node, callback) {
     if(node != null) {
         this.postOrderTraverse(node.left, callback);
         this.postOrderTraverse(node.right, callback);
-        callback(node.data);
+        callback(node.data);		//execuate function on each node in post order => left, right, root
     }
 }
 ```
