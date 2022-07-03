@@ -31,6 +31,6 @@ public void rvereseArray(int arr[], int start, int end){
         temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
-        revereseArray(arr, start+1, end-1);
+        revereseArray(arr, start++, end--);
 }
 
