@@ -26,7 +26,7 @@ public void rvereseArray(int arr[], int start, int end){
 public void rvereseArray(int arr[], int start, int end){
         int temp;
         if (start >= end)
-            return;
+            return;         //stop the recursively loop for the program
 	
         temp = arr[start];
         arr[start] = arr[end];
