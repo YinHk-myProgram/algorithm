@@ -8,3 +8,5 @@ It has the following properties:
 - The right subtree of a node has nodes which are only greater than that node’s key.
 - Each node has distinct keys and duplicates are not allowed in Binary Search Tree.
 - The left and right subtree must also be a binary search tree.
+- left substree with all nodes less than root
+- right subtree with all nodes large than root
