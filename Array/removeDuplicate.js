@@ -4,8 +4,8 @@ const uniq = [...new Set(array)]     // [ 1, 2, 3, 5 ]
 
 
 //or 
-const uniqueArray = array.filter(function(item, pos) {
-    return array.indexOf(item) == pos;
+const uniqueArray = array.filter(function(item, index) {
+    return array.indexOf(item) == index;
 })
 
 
