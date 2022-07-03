@@ -1,6 +1,6 @@
 const preorderTraversal = root => {
     let list = [];
-    //recurrsion method
+    //recurrsion 
     const preorder = node => {
         if(node) {
             list.push(node.val);
@@ -8,7 +8,7 @@ const preorderTraversal = root => {
             preorder(node.right);
         }
     }
-    if(root)  preorder(root);
+    preorder(root);
     return list;
 };
 
