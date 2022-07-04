@@ -88,4 +88,15 @@ removeNode(node, data) {
 }
 
 
+//checking two binary tree are same
+const isSameTree = (p, q) => {
+   if((p&&!q) || (q&&!p) || p?.val!==q?.val) return false;
+   if(p&&q) return isSameTree(p.left,q.left) && isSameTree(p.right, q.right);
+   return true; 
+};
+
+
+
+
+
 
