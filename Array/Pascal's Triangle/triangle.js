@@ -1,4 +1,4 @@
-const triangle = numRows =>{
+const triangle = numRows => {
     let res = [[1]];
     let count = 1;
     
