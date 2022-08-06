@@ -16,8 +16,15 @@ In programming space and time complexity matters a lot when we need to execute a
 Say you are given an array of size n. If the amount of space your algorithm uses scales with n, then it's not constant. 
 
 ### Constant & Linear Space Complexity in Algorithms
+memory may be used for the following…
 
+- Variables (This includes the constant values, temporary values)
+- Program Instruction
+- Execution
 
+Space Complexity is the total amount of memory a program an algorithm takes to execute and produce the result. Many times programmers get confused about Auxiliary Space and Space Complexity. Both are different. In any algorithm, the extra space or the temporary space that we use is known as Auxiliary space. 
+
+> **Space Complexity = Auxiliary Space + Input space**
 
 
 ### ref
