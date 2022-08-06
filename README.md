@@ -1,4 +1,4 @@
 # algorithm
-script of algorithm, in JavaScript, Java 
+Cheatsheet and notes related to data structure & algorithm
 
 
