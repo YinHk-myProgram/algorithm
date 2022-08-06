@@ -1,0 +1,3 @@
+## Brute force programming
+Programming a solution to a problem by using the most straightforward method. However, it is typically not a very elegant solution or one that is flexible for future changes, but it gets the job done. The proverbial brute force programming example is creating the most efficient and least costly route for visiting multiple venues and returning home ("the traveling salesman problem"). Brute force programming tests every possible routing combination; whereas other mathematical algorithms obtain the results more quickly when the number of venues is large. 
+See hard coded. See also brute force attack.
