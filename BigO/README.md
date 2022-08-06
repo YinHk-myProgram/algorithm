@@ -24,6 +24,11 @@ memory may be used for the following…
 
 Space Complexity is the total amount of memory a program an algorithm takes to execute and produce the result. Many times programmers get confused about Auxiliary Space and Space Complexity. Both are different. In any algorithm, the extra space or the temporary space that we use is known as Auxiliary space. 
 
+**Data space** : 
+during the execution of a program whatever space is required to store the constants and variable values are considered as Data Space.
+> Note: While writing an algorithm you only need to consider the Data Space.
+
+
 > **Space Complexity = Auxiliary Space + Input space**
 
 
