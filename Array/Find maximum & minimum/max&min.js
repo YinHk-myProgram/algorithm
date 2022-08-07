@@ -1,7 +1,8 @@
 //Find min & max using Math object method
 Math.max(...array)
+Math.max.apply(null, array)
 Math.min(...array)
-
+Math.min.apply(null, array)
 
 //using built-in reduce() method
 const arr = [1,2,33,18,39]
