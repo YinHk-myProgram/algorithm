@@ -1,6 +1,6 @@
 //copy array in js
 
-[...array]
+const copy = [...array]
 
 //or
 
