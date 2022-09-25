@@ -22,6 +22,8 @@ https://towardsdatascience.com/beginners-guide-to-dynamic-programming-8eff071956
 
 https://www.geeksforgeeks.org/dynamic-programming/#advanced
 
+https://www.youtube.com/watch?v=vYquumk4nWw
+
 ### All dynamic programming problems
 #### Basic
 1. Ugly numbers
