@@ -15,6 +15,14 @@ Dynamic Programming can be applied to **any such problem that requires the re-ca
 
 The problem is broken down and if the problem is solved already then saved value is returned, otherwise, the value of the function is memoized i.e. it will be calculated for the first time; for every other time, the stored value will be called back. Memoization is a great way for computationally expensive programs.
 
+### Dynamic Programming vs Recursion 
+Dynamic programming is mostly applied to recursive algorithms. This is not a coincidence, most optimization problems require recursion and dynamic programming is used for optimization.
+
+But not all problems that use recursion can use Dynamic Programming. Unless there is a presence of overlapping subproblems like in the fibonacci sequence problem, a recursion can only reach the solution using a divide and conquer approach.
+
+That is the reason why a recursive algorithm like Merge Sort cannot use Dynamic Programming, because the subproblems are not overlapping in any way.
+
+
 ### ref 
 https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/
 
