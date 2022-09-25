@@ -8,6 +8,10 @@ If any problem can be divided into subproblems, which in turn are divided into s
 
 Such problems involve repeatedly calculating the value of the same subproblems to find the optimum solution.
 
+#### Memoization
+Memoization is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again
+
+
 ### When use dynamic programming?
 The main use of dynamic programming is to **solve optimization problems**.
 
