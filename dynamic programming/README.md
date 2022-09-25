@@ -10,7 +10,6 @@ If any problem can be divided into subproblems, which in turn are divided into s
 
 Such problems involve repeatedly calculating the value of the same subproblems to find the optimum solution.
 
-
 ### When use dynamic programming?
 The main use of dynamic programming is to **solve optimization problems**.
 
@@ -18,15 +17,19 @@ if you notice that the problem can be broken down into sub-problems and these ca
 
 Dynamic Programming can be applied to **any such problem that requires the re-calculation of certain values to reach the final solution**.
 
-### Logic
+### Logic & flows
+- breaking down an optimization problem into simpler sub-problems
+- storing the solution to each sub-problem
+- reuse the storing values/solution to solve subproblems that occur again. 
 
-
-### Dynamic Programming vs Recursion 
+### Dynamic Programming vs Recursion
 Dynamic programming is mostly applied to recursive algorithms. This is not a coincidence, most optimization problems require recursion and dynamic programming is used for optimization.
 
 But not all problems that use recursion can use Dynamic Programming. Unless there is a presence of overlapping subproblems like in the fibonacci sequence problem, a recursion can only reach the solution using a divide and conquer approach.
 
 That is the reason why a recursive algorithm like Merge Sort cannot use Dynamic Programming, because the subproblems are not overlapping in any way.
+
+Here, the basic idea is to save time by efficient use of space. Recursion takes time but no space while dynamic programming uses space to store solutions to subproblems for future reference thus saving time.
 
 ### Dynamic Programming vs Greedy Algorithms
 Greedy Algorithms are similar to dynamic programming in the sense that they are both tools for optimization.
