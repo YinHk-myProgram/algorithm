@@ -54,7 +54,6 @@ The main use of dynamic programming is to **solve optimization problems**.
 42. Longest subsequence such that difference between adjacents is one
 43. Maximum length subsequence with difference between adjacent elements as either 0 or 1
 44. Maximum sum increasing subsequence from a prefix and a given element after prefix is must
-
 45. Maximum Length Chain of Pairs
 46. Print Maximum Length Chain of Pairs
 47. Path with maximum average value
@@ -117,3 +116,31 @@ The main use of dynamic programming is to **solve optimization problems**.
 104. Value of continuous floor function : F(x) = F(floor(x/2)) + x
 105. Number of decimal numbers of length k, that are strict monotone
 106. Different ways to sum n using numbers greater than or equal to m
+
+
+#### Intermediate Problems :
+- Lobb Number
+- Eulerian Number
+- Delannoy Number
+- Entringer Number
+- Rencontres Number
+- Jacobsthal and Jacobsthal-Lucas numbers
+- Super Ugly Number (Number whose prime factors are in given set)
+- Floyd Warshall Algorithm
+- Bellman–Ford Algorithm
+- 0-1 Knapsack Problem
+- Printing Items in 0/1 Knapsack
+- Unbounded Knapsack (Repetition of items allowed)
+- Temple Offerings
+- Egg Dropping Puzzle
+- Dice Throw Problem
+- Word Break Problem
+- Vertex Cover Problem
+- Tile Stacking Problem
+- Box-Stacking Problem
+- Highway Billboard Problem
+- Largest Independent Set Problem
+- Partition Problem
+- Print equal sum sets of array (Partition problem) | Set 1
+- Print equal sum sets of array (Partition Problem) | Set 2
+- High-effort vs. Low-effort Tasks Problem
