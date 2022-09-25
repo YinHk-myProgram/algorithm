@@ -35,6 +35,11 @@ However, greedy algorithms look for locally optimum solutions or in other words,
 
 Dynamic programming, on the other hand, finds the optimal solution to subproblems and then makes an informed choice to combine the results of those subproblems to find the most optimum solution.
 
+Remember, dynamic programming should not be confused with recursion.
+
+**Recursion** is a way of finding the solution by expressing the value of a function in terms of other values of that function directly or indirectly and such function is called a recursive function. It follows a top-down approach.
+
+**Dynamic programming** is nothing but recursion with memoization i.e. calculating and storing values that can be later accessed to solve subproblems that occur again, hence making your code faster and reducing the time complexity (computing CPU cycles are reduced).
 
 ### ref 
 https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/
