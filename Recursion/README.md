@@ -1,3 +1,9 @@
 ## Recurrsion
 
-A famous problem use recurrsion method to solve - Fibonacci numbers
+### What is Recursion? 
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. Using recursive algorithm, certain problems can be solved quite easily.
+
+
+
+
+A famous problem use recurrsion method to solve - **Fibonacci numbers**
