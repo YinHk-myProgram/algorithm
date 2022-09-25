@@ -7,7 +7,12 @@ The idea is to simply store the results of subproblems, so that we do not have t
 ### When use dynamic programming?
 The main use of dynamic programming is to **solve optimization problems**.
 
+### ref 
+https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/
 
+https://towardsdatascience.com/beginners-guide-to-dynamic-programming-8eff07195667
+
+https://www.geeksforgeeks.org/dynamic-programming/#advanced
 
 ### All dynamic programming problems
 #### Basic
