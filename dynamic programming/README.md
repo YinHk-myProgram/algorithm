@@ -11,6 +11,10 @@ if you notice that the problem can be broken down into sub-problems and these ca
 
 Dynamic Programming can be applied to **any such problem that requires the re-calculation of certain values to reach the final solution**.
 
+### Logic
+
+The problem is broken down and if the problem is solved already then saved value is returned, otherwise, the value of the function is memoized i.e. it will be calculated for the first time; for every other time, the stored value will be called back. Memoization is a great way for computationally expensive programs.
+
 ### ref 
 https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/
 
