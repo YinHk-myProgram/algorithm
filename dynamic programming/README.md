@@ -9,6 +9,8 @@ The main use of dynamic programming is to **solve optimization problems**.
 
 if you notice that the problem can be broken down into sub-problems and these can be broken into much smaller ones and some of these have overlap (i.e. requires the computation of previously calculated values). The main goal is to optimize the code by reducing the repetition of values by storing the results of sub-problems.
 
+Dynamic Programming can be applied to **any such problem that requires the re-calculation of certain values to reach the final solution**.
+
 ### ref 
 https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/
 
