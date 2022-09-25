@@ -10,9 +10,6 @@ If any problem can be divided into subproblems, which in turn are divided into s
 
 Such problems involve repeatedly calculating the value of the same subproblems to find the optimum solution.
 
-#### Memoization
-Memoization is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again
-
 
 ### When use dynamic programming?
 The main use of dynamic programming is to **solve optimization problems**.
@@ -23,7 +20,6 @@ Dynamic Programming can be applied to **any such problem that requires the re-ca
 
 ### Logic
 
-The problem is broken down and if the problem is solved already then saved value is returned, otherwise, the value of the function is **memoized** i.e. it will be calculated for the first time; for every other time, the stored value will be called back. **Memoization** is a great way for computationally expensive programs.
 
 ### Dynamic Programming vs Recursion 
 Dynamic programming is mostly applied to recursive algorithms. This is not a coincidence, most optimization problems require recursion and dynamic programming is used for optimization.
