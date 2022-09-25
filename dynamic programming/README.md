@@ -29,7 +29,9 @@ But not all problems that use recursion can use Dynamic Programming. Unless ther
 
 That is the reason why a recursive algorithm like Merge Sort cannot use Dynamic Programming, because the subproblems are not overlapping in any way.
 
-Here, the basic idea is to save time by efficient use of space. Recursion takes time but no space while dynamic programming uses space to store solutions to subproblems for future reference thus saving time.
+Here, the basic idea is to save time by efficient use of space. **Recursion takes time but no space** while **dynamic programming uses space to store solutions** to subproblems for future reference thus saving time. 
+- Time complexity: recurrsion > dynamic programming
+- Space complexity: dynamic programming > recurrsion 
 
 ### Dynamic Programming vs Greedy Algorithms
 Greedy Algorithms are similar to dynamic programming in the sense that they are both tools for optimization.
