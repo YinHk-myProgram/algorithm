@@ -2,6 +2,7 @@
 
 ### What is dynamic programming?
 Dynamic programming is a technique that breaks the problems into sub-problems, and saves the result for future purposes so that we do not need to compute the result again.
+The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later.  This simple optimization reduces time complexities from exponential to polynomial.
 
 ### When use dynamic programming?
 The main use of dynamic programming is to **solve optimization problems**.
