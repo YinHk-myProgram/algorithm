@@ -1,4 +1,6 @@
-// use dynamic programming to find the Nth fibonacci number
+//  use dynamic programming to find the Nth fibonacci number
+
+//Dynamic Programming- Bottom-Up Approach
 const fibonacci = num => {
   let a = 1, b = 0, temp;
 
