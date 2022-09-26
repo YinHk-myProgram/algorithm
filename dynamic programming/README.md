@@ -18,7 +18,7 @@ if you notice that the problem can be broken down into sub-problems and these ca
 Dynamic Programming can be applied to **any such problem that requires the re-calculation of certain values to reach the final solution**.
 
 ### Logic & flows
-- Draw a decision tree to visualize the problem
+- Draw a decision tree to visualize the problem(if needed, especially for **Top-down approach!**)
 - breaking down an optimization problem into simpler sub-problems
 - storing the solution to each sub-problem
 - reuse the storing values/solution to solve subproblems that occur again. 
