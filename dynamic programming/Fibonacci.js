@@ -1,6 +1,6 @@
 //  use dynamic programming to find the Nth fibonacci number
 
-//Dynamic Programming- Bottom-Up Approach
+//Dynamic Programming - Bottom-Up Approach
 const fibonacci = num => {
   let a = 1, b = 0, temp;
 
@@ -14,7 +14,7 @@ const fibonacci = num => {
   return b;
 }
 
-//Dynamic Programming- Bottom-Up Approach
+//Dynamic Programming - Bottom-Up Approach
 const fibBottomUp = (n, bottom_up = []) => {
      bottom_up[1] = 1;
      bottom_up[2] = 1;
@@ -41,3 +41,15 @@ function  fib(n) {
         }
         return f[n];
 }
+
+
+//Dynamic Programming - Top-down approach
+const fibTopDown = (n, memo) => {
+  memo = memo || {};
+
+  if (memo[n]) return memo[n];
+  if (n <= 1) return 1;
+
+  return memo[n] = fibTopDown(n - 1, memo) + fibTopDown(n - 2, memo);
+}
+
