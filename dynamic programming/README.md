@@ -56,6 +56,17 @@ you first calculate `F(0)` then `F(1)`, and save it to some array (for instance)
 | This approach uses decomposition to formulate a solution | This approach uses composition to develop a solution |
 | A lookup table is maintained and checked before computation of any subproblem | The solution is built from a bottom-most case using iteration |
 
+**Memoization** - This is a laissez-faire approach: You assume that you have already computed all subproblems and that you have no idea what the optimal evaluation order is. Typically, you would perform a recursive call (or some iterative equivalent) from the root, and either hope you will get close to the optimal evaluation order, or obtain a proof that you will help you arrive at the optimal evaluation order. You would ensure that the recursive call never recomputes a subproblem because you cache the results, and thus duplicate sub-trees are not recomputed.
+
+**example**: If you are calculating the Fibonacci sequence `fib(100)`, you would just call this, and it would call `fib(100)=fib(99)+fib(98)`, which would call `fib(99)=fib(98)+fib(97)`, ...etc..., which would call `fib(2)=fib(1)+fib(0)=1+0=1`. Then it would finally resolve `fib(3)=fib(2)+fib(1)`, but it doesn't need to recalculate `fib(2)`, because we cached it.
+This starts at the top of the tree and evaluates the subproblems from the leaves/subtrees back up towards the root.
+
+**Tabulation** - You can also think of dynamic programming as a "table-filling" algorithm (though usually multidimensional, this 'table' may have non-Euclidean geometry in very rare cases*). This is like memoization but more active, and involves one additional step: You must pick, ahead of time, the exact order in which you will do your computations. This should not imply that the order must be static, but that you have much more flexibility than memoization.
+
+**example**: If you are performing fibonacci, you might choose to calculate the numbers in this order: fib(2),fib(3),fib(4)... caching every value so you can compute the next ones more easily. You can also think of it as filling up a table (another form of caching).
+I personally do not hear the word 'tabulation' a lot, but it's a very decent term. Some people consider this "dynamic programming".
+Before running the algorithm, the programmer considers the whole tree, then writes an algorithm to evaluate the subproblems in a particular order towards the root, generally filling in a table.
+
 ### Dynamic Programming vs Recursion
 Dynamic programming is mostly applied to recursive algorithms. This is not a coincidence, most optimization problems require recursion and dynamic programming is used for optimization.
 
