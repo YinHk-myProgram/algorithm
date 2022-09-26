@@ -7,7 +7,7 @@
    Time Complexity: Exponential, as every function calls two other functions.
  */ 
 
-//Solution-1: Recursion-Top-Bottom Approach
+//Solution-1: Recursion-Top-down Approach
 function fib(n) {
     if (n <= 1)
         return n;
@@ -15,7 +15,7 @@ function fib(n) {
 }
 
 //Solution-2: Recursion with memoization, Optimization
-// Recursion with memoization
+// Recursion with memoization(also regard as dynamic programming-Top down approach)
  function fibMemo(n, memo = {}) {
      if (memo[n]) {
          return memo[n];
