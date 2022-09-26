@@ -30,7 +30,7 @@ There are 2 ways to solve dynamic programming problems:
 **Top-down**: 
 The top-down approach **follows the memoization technique**. It consists of two distinct events: recursion and caching. ‘Recursion’ represents the process of computation by calling functions repeatedly, whereas ‘caching’ represents the storing of intermediate results. Start by solving the problem in a natural manner and stored the solutions of the subproblems along the way. We also use the term memoization
 
-something looks like: `F(n) = F(n-1) + F(n-2)`. 
+something looks like: `F(n) = F(n-1) + F(n-2)`.
 
 Advantages:
 
@@ -43,6 +43,8 @@ Disadvantages:
 - Uses recursion, which takes up more memory space in the call stack, degrading the overall performance.
 - Possibility of a stack overflow error.
 
+
+Draw a decision tree to visualize the problem, find out the similar sub-problems, reuse the calculation of sub-problems !
 ![](./fibonacci.png)
 ![](./fibonacci2.png)
 
