@@ -27,7 +27,7 @@ There are 2 ways to solve dynamic programming problems:
 - Bottom-up approach
 
 **Top-down**: 
-The top-down approach **follows the memoization technique**. It consists of two distinct events: recursion and caching. ‘Recursion’ represents the process of computation by calling functions repeatedly, whereas ‘caching’ represents the storing of intermediate results.
+The top-down approach **follows the memoization technique**. It consists of two distinct events: recursion and caching. ‘Recursion’ represents the process of computation by calling functions repeatedly, whereas ‘caching’ represents the storing of intermediate results. Start by solving the problem in a natural manner and stored the solutions of the subproblems along the way. We also use the term memoization
 
 something looks like: `F(n) = F(n-1) + F(n-2)`. 
 
@@ -43,7 +43,7 @@ Disadvantages:
 - Possibility of a stack overflow error.
 
 **Bottom-up**:
-This approach **uses the tabulation technique** to implement the dynamic programming solution. It addresses the same problems as before, but without recursion. The recursion is replaced with iteration in this approach. Hence, there is no stack overflow error or overhead of recursive procedures. We maintain a table (3D matrix) to solve the problem in this method.
+This approach **uses the tabulation technique** to implement the dynamic programming solution. It addresses the same problems as before, but without recursion. The recursion is replaced with iteration in this approach. Hence, there is no stack overflow error or overhead of recursive procedures. We maintain a table (3D matrix) to solve the problem in this method.  Starting from the bottom(eg: initial value as start point), use a term tabulation for this process because it is like filling up a table from the start.
 
 you first calculate `F(0)` then `F(1)`, and save it to some array (for instance), then you continuously save `a(i) = a(i-1) + a(i-2)`. This is with O(n), you can avoid stack overflow.
 
@@ -103,6 +103,8 @@ https://www.youtube.com/watch?v=vYquumk4nWw
 https://www.enjoyalgorithms.com/blog/top-down-memoization-vs-bottom-up-tabulation
 
 https://www.youtube.com/watch?v=_i_nTcwyh-E
+
+https://www.codesdope.com/course/algorithms-dynamic-programming/
 
 ### All dynamic programming problems
 #### Basic
