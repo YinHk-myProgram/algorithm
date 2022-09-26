@@ -26,6 +26,15 @@ There are 2 ways to solve dynamic programming problems:
 - Top-down approach
 - Button-up approach
 
+**Key Differences: Top-Down vs Bottom-Up Approach**
+| Top-Down Approach | Bottom-Up Approach |
+| --- | --- |
+| Uses memorization technique | Uses tabulation technique |
+| Recursive nature | Iterative nature |
+| Structured programming languages such as COBOL, Fortran, C, and others mostly use this technique | Object-oriented programming languages such as C++, C#, and Python mostly use this technique |
+| This approach uses decomposition to formulate a solution | This approach uses composition to develop a solution |
+| A lookup table is maintained and checked before computation of any subproblem | The solution is built from a bottom-most case using iteration |
+
 ### Dynamic Programming vs Recursion
 Dynamic programming is mostly applied to recursive algorithms. This is not a coincidence, most optimization problems require recursion and dynamic programming is used for optimization.
 
