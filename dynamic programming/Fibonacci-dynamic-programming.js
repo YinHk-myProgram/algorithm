@@ -1,5 +1,11 @@
 //  use dynamic programming to find the Nth fibonacci number
 
+/* The Fibonacci numbers are the numbers in the following integer sequence.
+   0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ……..
+   
+   Fn = Fn-1 + Fn-2
+ */ 
+
 //Dynamic Programming - Bottom-Up Approach
 const fibonacci = num => {
   let a = 1, b = 0, temp;
