@@ -42,6 +42,9 @@ Disadvantages:
 - Uses recursion, which takes up more memory space in the call stack, degrading the overall performance.
 - Possibility of a stack overflow error.
 
+![](./fibonacci.png)
+![](./fibonacci2.png)
+
 **Bottom-up**:
 This approach **uses the tabulation technique** to implement the dynamic programming solution. It addresses the same problems as before, but without recursion. The recursion is replaced with iteration in this approach. Hence, there is no stack overflow error or overhead of recursive procedures. We maintain a table (3D matrix) to solve the problem in this method.  Starting from the bottom(eg: initial value as start point), use a term tabulation for this process because it is like filling up a table from the start.
 
