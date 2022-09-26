@@ -45,6 +45,8 @@ Disadvantages:
 **Bottom-up**:
 This approach **uses the tabulation technique** to implement the dynamic programming solution. It addresses the same problems as before, but without recursion. The recursion is replaced with iteration in this approach. Hence, there is no stack overflow error or overhead of recursive procedures. We maintain a table (3D matrix) to solve the problem in this method.
 
+you first calculate `F(0)` then `F(1)`, and save it to some array (for instance), then you continuously save `a(i) = a(i-1) + a(i-2)`. This is with O(n), you can avoid stack overflow.
+
 **Key Differences: Top-Down vs Bottom-Up Approach**
 | Top-Down Approach | Bottom-Up Approach |
 | --- | --- |
