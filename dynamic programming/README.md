@@ -27,7 +27,7 @@ There are 2 ways to solve dynamic programming problems:
 - Bottom-up approach
 
 **Top-down**: 
-The top-down approach follows the memorization technique. It consists of two distinct events: recursion and caching. ‘Recursion’ represents the process of computation by calling functions repeatedly, whereas ‘caching’ represents the storing of intermediate results.
+The top-down approach **follows the memorization technique**. It consists of two distinct events: recursion and caching. ‘Recursion’ represents the process of computation by calling functions repeatedly, whereas ‘caching’ represents the storing of intermediate results.
 
 something looks like: `F(n) = F(n-1) + F(n-2)`. 
 
@@ -43,7 +43,7 @@ Disadvantages:
 - Possibility of a stack overflow error.
 
 **Bottom-up**:
-This approach uses the tabulation technique to implement the dynamic programming solution. It addresses the same problems as before, but without recursion. The recursion is replaced with iteration in this approach. Hence, there is no stack overflow error or overhead of recursive procedures. We maintain a table (3D matrix) to solve the problem in this method.
+This approach **uses the tabulation technique** to implement the dynamic programming solution. It addresses the same problems as before, but without recursion. The recursion is replaced with iteration in this approach. Hence, there is no stack overflow error or overhead of recursive procedures. We maintain a table (3D matrix) to solve the problem in this method.
 
 **Key Differences: Top-Down vs Bottom-Up Approach**
 | Top-Down Approach | Bottom-Up Approach |
