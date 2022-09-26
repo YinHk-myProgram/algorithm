@@ -29,6 +29,8 @@ There are 2 ways to solve dynamic programming problems:
 **Top-down**: 
 The top-down approach follows the memorization technique. It consists of two distinct events: recursion and caching. ‘Recursion’ represents the process of computation by calling functions repeatedly, whereas ‘caching’ represents the storing of intermediate results.
 
+something looks like: `F(n) = F(n-1) + F(n-2)`. 
+
 Advantages:
 
 - Easy to understand and implement
