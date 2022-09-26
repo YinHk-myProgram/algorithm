@@ -53,3 +53,15 @@ const fibTopDown = (n, memo) => {
   return memo[n] = fibTopDown(n - 1, memo) + fibTopDown(n - 2, memo);
 }
 
+/*
+  F = [] //new array
+  FIBONACCI(n)
+  if F[n] == null
+    if n==0
+      F[n] = 0
+    else if n==1
+      F[n] = 1
+    else
+      F[n] = FIBONACCI(n-1) + FIBONACCI(n-2)
+  return F[n] 
+*/
