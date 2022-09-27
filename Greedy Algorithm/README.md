@@ -26,3 +26,4 @@ https://www.youtube.com/watch?v=bC7o8P_Ste4
 
 https://www.baeldung.com/java-greedy-algorithms
 
+https://www.freecodecamp.org/news/what-is-a-greedy-algorithm/
