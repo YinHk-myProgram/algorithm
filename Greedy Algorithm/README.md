@@ -8,7 +8,12 @@ A greedy algorithm is an algorithm that attempt to find the solution in small st
 
 Very often Greedy algorithm will give you the most optimal solution, by making the decision that looks the best at the moment.
 
+In an algorithm design there is no one 'silver bullet' that is a cure for all computation problems. Different problems require the use of different kinds of techniques. A good programmer uses all these techniques based on the type of problem. Some commonly-used techniques are:
 
+- Divide and conquer
+- Randomized algorithms
+- Greedy algorithms (This is not an algorithm, it is a technique.)
+- Dynamic programming
 
 
 ### ref
