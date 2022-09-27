@@ -67,6 +67,8 @@ you first calculate `F(0)` then `F(1)`, and save it to some array (for instance)
 
 **Memoization** - This is a laissez-faire approach: You assume that you have already computed all subproblems and that you have no idea what the optimal evaluation order is. Typically, you would perform a recursive call (or some iterative equivalent) from the root, and either hope you will get close to the optimal evaluation order, or obtain a proof that you will help you arrive at the optimal evaluation order. You would ensure that the recursive call never recomputes a subproblem because you cache the results, and thus duplicate sub-trees are not recomputed.
 
+**memorization** is equal to the sum of recursion and caching. **Recursion** means calling the function itself, while caching means storing the intermediate results
+
 **example**: If you are calculating the Fibonacci sequence `fib(100)`, you would just call this, and it would call `fib(100)=fib(99)+fib(98)`, which would call `fib(99)=fib(98)+fib(97)`, ...etc..., which would call `fib(2)=fib(1)+fib(0)=1+0=1`. Then it would finally resolve `fib(3)=fib(2)+fib(1)`, but it doesn't need to recalculate `fib(2)`, because we cached it.
 This starts at the top of the tree and evaluates the subproblems from the leaves/subtrees back up towards the root.
 
