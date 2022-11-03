@@ -1,0 +1,6 @@
+- Beware of index out of bound
+- searching method
+- sorting method
+- replace element
+- find element
+- split elements
