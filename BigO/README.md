@@ -7,6 +7,11 @@ In programming space and time complexity matters a lot when we need to execute a
 
 > A good program should take less memory and take less time to be executed
 
+- O(1) – constant complexity – takes the same amount of space regardless of the input size
+- O(log n) – logarithmic complexity – takes space proportional to the log of the input size
+- O(n) – linear complexity – takes space directly proportional to the input size
+- O(n log n) – log-linear/quasilinear complexity – also called “linearithmic”, its space complexity grows proportionally to the input size and a logarithmic factor
+- O(n^2) – square/polynomial complexity – space complexity grows proportionally to the square of the input size
 
 ### Comparision of time complexity
 **O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(n³) < O(2^n) < O(3^n) < O(n!)**
