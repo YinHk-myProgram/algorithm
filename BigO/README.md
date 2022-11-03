@@ -14,7 +14,7 @@ In programming space and time complexity matters a lot when we need to execute a
 - O(n^2) – square/polynomial complexity – space complexity grows proportionally to the square of the input size
 
 ### Comparision of time complexity
-**O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(n³) < O(2^n) < O(3^n) < O(n!)**
+> **O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(n³) < O(2^n) < O(3^n) < O(n!)**
 
 ### No extra space or O(1) extra space
 > Constant space means that the amount of space that your algorithm uses is independent of the input parameters. 
