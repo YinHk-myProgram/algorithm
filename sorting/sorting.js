@@ -27,3 +27,4 @@ for(let i=1;i<=nums.length-1;i++){
 arr.sort((a-b) => a-b);        //sort in ascending order
 arr.sort((b-a) => b-a);        //sort in decending order
 
+
