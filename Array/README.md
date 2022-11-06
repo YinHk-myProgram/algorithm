@@ -11,3 +11,10 @@
 
 - index
 - length
+
+
+Looping in array
+- double for loop
+    - i, j
+    - i, j=i+1
+- loop from bothside,   i, length-i
