@@ -11,5 +11,7 @@ In an algorithm design there is no one 'silver bullet' that is a cure for all co
 - Dynamic Programming
 ...
 
+![](./DSA-study-guide.png)
+
 ### ref
 https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm
