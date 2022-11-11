@@ -13,7 +13,7 @@ const moveZeroes = nums => {
       i--;
     }
   }
-  for (let i = 0; i < ountZeros; i += 1) {
+  for (let i = 0; i < countZeros; i += 1) {
     nums.push(0);
   }
   return nums;
