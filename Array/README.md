@@ -1,6 +1,7 @@
-## Points:
+## Actions:
 - Beware of index out of bound
 - searching method
+- swap elements
 - sorting method
 - replace element
 - find element
@@ -8,12 +9,12 @@
 - make comparsion between element
 
 
-
+## array 
 - index
 - length
+- items (arr[index])
 
-
-Looping in array
+## Looping through array
 - double for loop
     - i, j
     - i, j=i+1
