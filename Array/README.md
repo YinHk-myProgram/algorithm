@@ -1,5 +1,4 @@
-## Actions:
-- Beware of index out of bound
+### What we can do in array
 - searching method
 - swap elements
 - sorting method
@@ -9,12 +8,13 @@
 - make comparsion between element
 
 
-## array 
+### array 
 - index
 - length
 - items (arr[index])
+- beware of index out of bound
 
-## Looping through array
+### Looping through array
 - double for loop
     - i, j
     - i, j=i+1
