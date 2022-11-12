@@ -12,4 +12,4 @@ permutation:
 https://javascript.plainenglish.io/backtracking-iii-permutations-834bfb5bd9d0
 
 
-![](./permutation_logic.png)
+![](./backtracking-logic.png)
