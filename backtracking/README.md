@@ -5,6 +5,13 @@ A **backtracking algorithm** is a problem-solving algorithm that uses a **brute 
 
 > The Brute force approach tries out all the possible solutions and chooses the desired/best solutions.
 
+**Steps:**
+
+- 1. Adding a tree node through the iteration proccess
+- 2. recursion(backtracking, just repeat all the steps in subtrees)
+- 3. remove a tree node before next interation
+- 4. if a solution found, add to the solutions set and add return keyword to stop that iteration process.
+
 Backtracking is an algorithmic technique for **solving problems recursively** by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time.
 
 if the current solution is not suitable, then backtrack and try other solutions. Thus, recursion is used in this approach.
