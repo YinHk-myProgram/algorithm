@@ -24,7 +24,7 @@ for(let i=1;i<=nums.length-1;i++){
 
 
 // using sort() method in js
-arr.sort((a-b) => a-b);        //sort in ascending order
-arr.sort((b-a) => b-a);        //sort in decending order
+arr.sort((a, b) => a-b);        //sort in ascending order
+arr.sort((a, b) => b-a);        //sort in decending order
 
 
