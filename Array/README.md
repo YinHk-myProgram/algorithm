@@ -4,7 +4,7 @@
 - sorting method
 - replace element
 - find element
-- split elements
+- split elements / remove elements
 - make comparsion between element
 
 
