@@ -1,3 +1,31 @@
+var threeSum = function(nums) {
+   nums.sort((a, b) => a-b); 
+   let triplet = [];
+   
+    for(let i=0; i<nums.length-2; i++) {
+        if(i>0 && nums[i] === nums[i-1]) continue; 
+        //loop from bothside: i+1 & last
+        let front = i+1;
+        let rear = nums.length-1;
+       
+        while(front < rear) {
+           let sum = nums[i] + nums[front] + nums[rear]; 
+           if(sum < 0) front++;
+           else if(sum > 0) rear--;
+           else {
+            triplet.push([nums[i], nums[front], nums[rear]]);
+            //loop through the rest, make sure the contain duplicate the triplets does not contain the duplicated triplet
+            while(nums[front] === nums[front+1]) front++; 
+            while(nums[rear] === nums[rear-1]) rear--;
+            front++;
+            rear--;
+           } 
+        }
+    }
+    return triplet;
+};
+
+// or
 const threeSum = function(array) {
      array.sort((a,b) => a - b);
     const triplets = [];
