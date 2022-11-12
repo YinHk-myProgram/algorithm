@@ -18,4 +18,9 @@
 - double for loop
     - i, j
     - i, j=i+1
-- loop from bothside,   i, length-i
+    - i, j=i-1
+    
+- loop from bothside
+    - 0, length-1
+    - i, length-1
+    - i, length-i
