@@ -6,6 +6,7 @@
 - 1. Adding a tree node through the iteration proccess
 - 2. recursion(backtracking, just repeat all the steps in subtrees)
 - 3. remove a tree node before next interation
+- 4. if a solution found, add to the solutions set and add **return** keyword to stop that iteration process.
 
 combination:
 
