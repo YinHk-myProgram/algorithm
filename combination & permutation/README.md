@@ -1,6 +1,6 @@
 # combination & permutation
 
-> Solve combinations and permutation problem by backtracking algorithmn.
+> Solve combinations and permutation problem by **backtracking algorithmn**.
 
 combination:
 
