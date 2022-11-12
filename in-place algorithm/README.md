@@ -1,8 +1,9 @@
 ## in-place algorithm
 
 An **in-place algorithm** is an algorithm which transforms its input using no auxiliary data structure. 
-Essentially, this means that if an in-place algorithm is written to take in an array as an argument, **it must modify that array in its original place in memory**; 
-no extra arrays, objects, or pointers in memory may be used.
+Essentially, this means that if an in-place algorithm is written to take in an array as an argument, 
+- **it must modify that array in its original place in memory**,
+- **no extra arrays, objects, or pointers in memory may be used**.
   
   
 ### strict defination
