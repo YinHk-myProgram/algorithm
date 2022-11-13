@@ -37,9 +37,9 @@ public static void inorder(Node root){
 }
 /* 
 example:
-				   1
-				 /   \
-				/     \
+			       1
+			     /   \
+		            /     \
 			   2       3
 			  /      /   \
 			 /      /     \
