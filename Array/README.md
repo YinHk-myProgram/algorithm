@@ -1,9 +1,9 @@
 ### What we can do in array
-- searching method
+- searching for elements
 - swap elements
-- sorting method
+- sorting 
 - replace element
-- find element
+- Adding elements / combine arrays or items
 - split elements / remove elements
 - make comparsion between element
 
