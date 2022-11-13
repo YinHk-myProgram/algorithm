@@ -58,6 +58,39 @@ var isValid = function(s) {
 };
 
 
+//or
+var isValid = function(s) {
+    var actual = "";
+    if(s.length%2 != 0) return false;
+    for( var i = 0; i < s.length; i++)
+        {   
+            switch (s[i]) {
+                case "(":  
+                    if(s[i+1] == "]" | s[i+1] == "}") return false; 
+                    actual += "("; break;
+                case "[": 
+                    if(s[i+1] == ")" | s[i+1] == "}") return false; 
+                    actual += "["; break;
+                case "{": 
+                    if(s[i+1] == "]" | s[i+1] == ")") return false; 
+                    actual += "{"; break;
+                case ")": 
+                    if(actual[actual.length-1] != "(") return false;
+                    actual = actual.substring(0,actual.length-1);
+                    break;
+                case "]": 
+                    if(actual[actual.length-1] != "[") return false;
+                    actual = actual.substring(0,actual.length-1);
+                    break;
+                case "}": 
+                    if(actual[actual.length-1] != "{") return false;
+                    actual = actual.substring(0,actual.length-1);
+                    break;
+            }
+        }
+        if(actual.length > 0) return false;
+          return true;
+};
 
 
 //or my solution
