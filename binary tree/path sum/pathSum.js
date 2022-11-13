@@ -15,7 +15,7 @@ const hasPathSum = (root, targetSum) => {
 };
 
 const pathSum = (root, sum) => { 
-   if(!root) return false;
-   if(!root.left && !root.right) return root.val === sum;
+   if(!root) return false; 
+   if(!root.left && !root.right) return root.val === sum;       // check if the node value == the remain value in total sum
     else return pathSum(root.left, sum-root.val) || pathSum(root.right, sum-root.val);  //return left if true, otherwise return right
 }
