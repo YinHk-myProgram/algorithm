@@ -22,7 +22,7 @@ const pathSum = (root, targetSum) => {
      
      list.push(node.val)
      if(node.val === target && !node.left && !node.right){
-       res.push([...list])
+       res.push([...list])                                // check if the node value == the remain value in total sum
        return;
      }
         
