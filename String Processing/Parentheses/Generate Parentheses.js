@@ -15,6 +15,28 @@ Output: ["()"]
 
 */
 
+const generateParenthesis = function(n) {
+    let combos = [];
+
+    const generate = function(left, right, combo) {
+        if (right === n) {
+            combos.push(combo);
+        }
+        if (left < n) {
+            generate(left + 1, right, combo + '(');
+        }
+        if (right < left) {
+            generate(left, right + 1, combo + ')');
+        }
+    }
+
+    generate(0, 0, '');
+
+    return combos;
+};
+
+
+//or
 
 var generateParenthesis = function(n) {
     
