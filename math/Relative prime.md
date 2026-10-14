@@ -10,8 +10,20 @@
 
 就代表佢哋係 relatively prime。
 
-```
-n1 = 12n2 = 25gcd = 1k = 2while k <= n1 and k <= n2:    if n1 % k == 0 and n2 % k == 0:        gcd = k    k += 1if gcd == 1:    print("Relatively prime")else:    print("Not relatively prime")
+```py
+n1 = 12
+n2 = 25
+gcd = 1
+k = 2
+while k <= n1 and k <= n2:
+  if n1 % k == 0 and n2 % k == 0:
+    gcd = k
+  k += 1
+
+if gcd == 1:
+  print("Relatively prime")
+else:
+  print("Not relatively prime")
 ```
 
 輸出：
