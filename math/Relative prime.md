@@ -6,7 +6,7 @@
 
 兩個整數 `n1` 同 `n2` 如果：
 
-\\[ \gcd(n1,n2)=1 \\]
+`gcd(n1,n2)=1`
 
 就代表佢哋係 relatively prime。
 
