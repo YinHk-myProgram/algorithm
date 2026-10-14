@@ -2,7 +2,7 @@
 
 An integer greater than 1 is prime if its only positive divisor is 1 or itself
 
-
+> **Note**: 記住： 除咗 1 同自己以外，一個數嘅因數唔可能大於佢嘅一半。因此，檢查到 number // 2 已經足夠。
 
 ### algorithm for the problem:
 ```
